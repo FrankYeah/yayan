@@ -8,6 +8,33 @@ html body{
     /* font-family: 'Noto Sans TC', '微軟正黑體', sans-serif; */
 }
 
+.logo{
+    width: 30px;
+    height: 30px;
+    background: url('../img/share/icon-white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.menu-open{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/menu-white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+
 .main{
     width: 100vw;
     height: 100vh;

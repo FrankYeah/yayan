@@ -165,3 +165,58 @@ a{
 #simple:hover{
     color: #c59b6d;
 }
+
+
+/* 下面的只有首頁沒有 */
+
+.left-float{
+    font-size: 0.5em;
+    position: absolute;
+    left: 40px;
+    top: 30%;
+    writing-mode: vertical-rl;
+    color: #604a40;
+}
+
+.right-float{
+    position: absolute;
+    right: 52px;
+    top: 38%;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-fb{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/fb-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.right-ig{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/ig-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.right-line{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/line-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}

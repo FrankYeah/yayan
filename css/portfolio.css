@@ -8,6 +8,8 @@ html body{
     /* font-family: 'Noto Sans TC', '微軟正黑體', sans-serif; */
 }
 
+/* 只有l ogo、menu-open 不一樣 */
+
 .logo{
     width: 30px;
     height: 30px;
@@ -35,6 +37,8 @@ html body{
     cursor: pointer;
 }
 
+/* 只有l ogo、menu-open 不一樣 */
+
 .main{
     width: 100vw;
     height: 100vh;
@@ -46,29 +50,15 @@ html body{
 }
 
 .caption{
-
+    text-align: center;
+    color: #604a40;
+    padding-right: 12px;
+    padding-top: 50px;
 }
 
 .sub-caption{
-    
-}
-
-.left-float{
-
-}
-
-.right-float{
-
-}
-
-.right-fb{
-
-}
-
-.right-ig{
-
-}
-
-.right-line{
-
+    text-align: center;
+    color: #604a40;
+    letter-spacing: 17px;
+    padding-top: 10px;
 }

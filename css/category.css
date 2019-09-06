@@ -41,81 +41,10 @@ html body{
 
 .main{
     width: 100vw;
-    height: 88vh;
-    padding-top: 12vh;
+    height: 100vh;
     background: url('../img/share/marble.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.caption{
-    text-align: center;
-    color: #604a40;
-    position: absolute;
-    left: 0px;
-    top: 40px;
-    width: 99.3%;
-}
-
-.sub-caption{
-    text-align: center;
-    color: #604a40;
-    letter-spacing: 17px;
-    position: absolute;
-    left: 0px;
-    top: 70px;
-    width: 100%;
-}
-
-.article{
-    display: flex;
-    max-width: 800px;
-    width: 80%;
-    /* margin: auto; */
-    padding-right: 15px;
-    cursor: pointer;
-}
-
-.item-one{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.item-two{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 40px;
-}
-
-.space-img{
-    min-width: 130px;
-    max-width: 10%;
-    border-radius: 100px;
-    transition: all 0.6s;
-}
-
-.straight-line{
-    height: 50px;
-    width: 1px;
-    background: #604a40;
-    margin-bottom: 8px;
-    transition: all 0.6s;
-}
-
-.eng-word{
-    font-size: 0.8em;
-    margin-bottom: 8px;
-}
-
-.ch-word{
-    font-size: 0.8em;
-
 }

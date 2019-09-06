@@ -181,7 +181,7 @@ a{
 .right-float{
     position: absolute;
     right: 52px;
-    top: 38%;
+    top: 37%;
     height: 128px;
     display: flex;
     flex-direction: column;

@@ -79,13 +79,13 @@ html body{
     width: 80%;
     /* margin: auto; */
     padding-right: 15px;
-    cursor: pointer;
 }
 
 .item-one{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .item-two{
@@ -93,6 +93,7 @@ html body{
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
+    cursor: pointer;
 }
 
 .space-img{

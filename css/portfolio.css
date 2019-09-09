@@ -10,6 +10,62 @@ html body{
 
 /* 只有l ogo、menu-open 不一樣 */
 
+/* 右側也會不同 */
+
+.left-float{
+    font-size: 0.5em;
+    position: absolute;
+    left: 40px;
+    top: 30%;
+    writing-mode: vertical-rl;
+    color: #604a40;
+}
+
+.right-float{
+    position: absolute;
+    right: 52px;
+    top: 37%;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-fb{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/fb-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.right-ig{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/ig-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.right-line{
+    width: 20px;
+    height: 20px;
+    background: url('../img/share/line-brown.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+/* 右側也會不同 */
+
 .logo{
     width: 30px;
     height: 30px;

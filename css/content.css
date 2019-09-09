@@ -17,7 +17,7 @@ a{
 .logo{
     width: 30px;
     height: 30px;
-    background: url('../img/share/icon-brown.png');
+    background: url('../img/share/icon-white.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -30,7 +30,7 @@ a{
 .menu-open{
     width: 20px;
     height: 20px;
-    background: url('../img/share/menu-brown.png');
+    background: url('../img/share/menu-white.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -51,7 +51,7 @@ a{
     left: 40px;
     top: 30%;
     writing-mode: vertical-rl;
-    color: #604a40;
+    color: white;
 }
 
 .right-float{
@@ -67,7 +67,7 @@ a{
 .right-fb{
     width: 20px;
     height: 20px;
-    background: url('../img/share/fb-brown.png');
+    background: url('../img/share/fb-white.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -78,7 +78,7 @@ a{
 .right-ig{
     width: 20px;
     height: 20px;
-    background: url('../img/share/ig-brown.png');
+    background: url('../img/share/ig-white.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -89,7 +89,7 @@ a{
 .right-line{
     width: 20px;
     height: 20px;
-    background: url('../img/share/line-brown.png');
+    background: url('../img/share/line-white.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -99,79 +99,11 @@ a{
 
 /* 右側也會不同 */
 
-.main{
+.main-img{
     width: 100vw;
     height: 100vh;
-    background: url('../img/share/marble.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sub-main{
-    display: flex;
-    max-width: 800px;
-    width: 80%;
-}
-
-.caption{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.title-eng{
-    font-size: 0.8em;
-}
-
-.title-word{
-    margin: 10px 0px 50px;
-    font-size: 0.8em;
-}
-
-.back{
-    border-radius: 100px;
-    border: 0.5px solid #604a40;
-    width: 45%;
-    text-align: center;
-    height: 30px;
-    line-height: 30px;
-    font-size: 0.8em;
-    cursor: pointer;
-    color: #604a40;
-}
-
-.rotate{
-    width: 70%;
-}
-
-.unit{
-    cursor: pointer;
-}
-
-.unit:hover{
-    opacity: 0.6;
-}
-
-.unit-img{
-    width: 100%;
-    border-radius: 100px;
-    transition: all 0.6s;
-}
-
-.unit-num{
-    font-size: 0.8em;
-    text-align: center;
-    margin: 10px 0px 10px;
-}
-
-.unit-word{
-    font-size: 0.8em;
-    text-align: center;
 }

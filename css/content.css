@@ -284,3 +284,44 @@ a{
 .back:hover{
     opacity: 0.6;
 }
+
+
+/* full img */
+
+.full-box{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+.full-inner{
+    width: 65%;
+    margin: auto;
+}
+
+.full-img{
+
+}
+
+.full-left{
+    position: absolute;
+    left: 10%;
+    top: 46%;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+}
+
+.full-right{
+    position: absolute;
+    right: 10%;
+    top: 46%;
+    width: 30px;
+    height: 30px;
+}
+

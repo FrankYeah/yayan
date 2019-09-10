@@ -20,7 +20,7 @@ html body{
     background-position-x: center;
     background-position-y: center;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 30px;
 }
 
@@ -110,7 +110,7 @@ html body{
     text-align: center;
     /* color: #604a40; 深咖啡*/
     /* color: #c59b6d; 滑過去淺咖啡 */
-    /* color: #f2e3d8; 預設淺色*/
+    /* color: #f2e3d8; 預設淺皮膚色色*/
 }
 
 @media(max-width: 800px) {

@@ -23,7 +23,7 @@ a{
     background-position-x: center;
     background-position-y: center;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 30px;
 }
 
@@ -145,6 +145,10 @@ a{
     font-size: 0.8em;
     cursor: pointer;
     color: #604a40;
+}
+
+.back:hover{
+    opacity: 0.6;
 }
 
 .rotate{

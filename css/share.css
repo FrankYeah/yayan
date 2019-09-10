@@ -93,11 +93,11 @@ a{
 .fb{
     width: 20px;
     height: 20px;
-    /* background: url('../img/share/fb-skin.png');
+    background: url('../img/share/fb-skin.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center; */
+    background-position-y: center;
     cursor: pointer;
 }
 

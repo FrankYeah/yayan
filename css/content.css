@@ -1,9 +1,15 @@
 html body{
-    margin: 0px;
     color: #604a40;
     font-size: 18px;
     position: relative;
     letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('../img/share/marble.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     /* font-family: '微軟正黑體'; */
     /* font-family: 'Noto Sans TC', '微軟正黑體', sans-serif; */
 }
@@ -22,8 +28,8 @@ a{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    position: absolute;
-    top: 30px;
+    position: fixed;
+    top: 25px;
     left: 30px;
 }
 
@@ -35,7 +41,7 @@ a{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 50px;
     cursor: pointer;
@@ -47,7 +53,7 @@ a{
 
 .left-float{
     font-size: 0.5em;
-    position: absolute;
+    position: fixed;
     left: 40px;
     top: 30%;
     writing-mode: vertical-rl;
@@ -55,7 +61,7 @@ a{
 }
 
 .right-float{
-    position: absolute;
+    position: fixed;
     right: 52px;
     top: 37%;
     height: 128px;
@@ -100,10 +106,181 @@ a{
 /* 右側也會不同 */
 
 .main-img{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+
+.caption-out{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #f2e3d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.caption-out::before{
+    content: '';
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    background: url('../img/content/deco-icon.png') no-repeat 50%;
+    background-size: contain;
+    position: absolute;
+    left: 18%;
+    bottom: -60px;
+}
+
+.caption-inner{
+    width: 40%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.gategory-word{
+    border-radius: 100px;
+    border: 0.5px solid #604a40;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.title-eng{
+    margin: 20px;
+    line-height: 20px;
+}
+
+.title{
+
+}
+
+/*  */
+
+.body-width{
+    width: 65%;
+    margin: auto;
+}
+
+/* imgggggggggggggggggggggggggggg */
+
+.center-box{
+    height: auto;
+    margin: 60px 0px;
+}
+
+.center-big-img{
+    height: 400px;
+    width: 100%;
+    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.center-big-img:hover{
+    opacity: 0.6;
+}
+
+.center-single-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-single{
+    height: 150px;
+    width: 150px;
+    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.last-center-single{
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+.center-single:hover{
+    opacity: 0.6;
+}
+
+/* key */
+
+.key-title-en{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.key-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.key-text{
+    padding-bottom: 40px;
+    font-size: 0.8em;
+    line-height: 28px;
+}
+
+.key-text-en{
+    padding-bottom: 40px;
+    font-size: 0.8em;
+    line-height: 28px;
+}
+
+/* excel */
+
+.excel-box{
+    display: flex;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.excel-left{
+    width: 25%;
+    padding-right: 1%;
+    line-height: 20px;
+}
+
+.excel-right{
+    width: 74%;
+    line-height: 20px;
+}
+
+.back{
+    margin: 80px auto;
+    border-radius: 100px;
+    border: 0.5px solid #604a40;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.back:hover{
+    opacity: 0.6;
 }

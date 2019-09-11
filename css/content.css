@@ -174,7 +174,7 @@ a{
     margin: auto;
 }
 
-/* imgggggggggggggggggggggggggggg */
+/* img */
 
 .center-box{
     height: auto;
@@ -184,7 +184,7 @@ a{
 .center-big-img{
     height: 400px;
     width: 100%;
-    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    /* background-image: url('../img/content/marjorie/marjorie-main.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -289,7 +289,9 @@ a{
 /* full img */
 
 .full-box{
-    display: none;
+    /* display: none; */
+    display: flex;
+    visibility: hidden;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -305,7 +307,7 @@ a{
 }
 
 .full-img{
-
+    width: 100%;
 }
 
 .full-left{
@@ -315,6 +317,8 @@ a{
     width: 30px;
     height: 30px;
     transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 4;
 }
 
 .full-right{
@@ -323,5 +327,7 @@ a{
     top: 46%;
     width: 30px;
     height: 30px;
+    cursor: pointer;
+    z-index: 4;
 }
 

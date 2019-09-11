@@ -20,7 +20,8 @@ $(document).ready(function(){
     var bg4 = document.getElementById("bg4");
     var bg5 = document.getElementById("bg5");
     var bg5 = document.getElementById("bg5");
-
+    var leftFloat = document.getElementsByClassName("left-float");
+    
 
     fullBox.addEventListener('click', function(){
         $(fullBox).css('visibility', 'hidden');
@@ -71,5 +72,26 @@ $(document).ready(function(){
         swiper.slideTo(6);
     })
 
+
+    // 當滑到這裡要變色
+
+    function detectScroll () {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+        let offsetTop = document.querySelector('.caption-out').offsetTop
+        if (scrollTop > offsetTop - 200) {
+            leftFloat[0].style.color = '#604a40';
+            document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
+            document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";
+            document.querySelector('.right-line').style.backgroundImage = "url('../img/share/line-brown.png')";
+        } else {
+            leftFloat[0].style.color = 'white';
+            document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-white.png')";
+            document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-white.png')";
+            document.querySelector('.right-line').style.backgroundImage = "url('../img/share/line-white.png')";
+        }
+    }
+
+    window.addEventListener('scroll', detectScroll)
+    detectScroll()
 
   })

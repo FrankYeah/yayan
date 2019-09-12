@@ -81,6 +81,10 @@ a{
     cursor: pointer;
 }
 
+.right-fb:hover{
+    opacity: 0.6;
+}
+
 .right-ig{
     width: 20px;
     height: 20px;
@@ -92,6 +96,10 @@ a{
     cursor: pointer;
 }
 
+.right-ig:hover{
+    opacity: 0.6;
+}
+
 .right-line{
     width: 20px;
     height: 20px;
@@ -101,6 +109,10 @@ a{
     background-position-x: center;
     background-position-y: center;
     cursor: pointer;
+}
+
+.right-line:hover{
+    opacity: 0.6;
 }
 
 /* 右側也會不同 */

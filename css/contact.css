@@ -47,7 +47,7 @@ a{
 
 .left-float{
     font-size: 0.5em;
-    position: absolute;
+    position: fixed;
     left: 40px;
     top: 30%;
     writing-mode: vertical-rl;
@@ -55,7 +55,7 @@ a{
 }
 
 .right-float{
-    position: absolute;
+    position: fixed;
     right: 52px;
     top: 37%;
     height: 128px;
@@ -112,90 +112,97 @@ a{
 /* 右側也會不同 */
 
 .main{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: url('../img/share/marble.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sub-main{
-    display: flex;
-    max-width: 800px;
-    width: 80%;
-    align-items: center;
-}
-
-.caption{
-    width: 30%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
-.title-eng{
+.contact-eng{
+    margin-bottom: 6px;
+}
+
+.contact-word{
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    padding-left: 5px;
+}
+
+.yayan-design{
+    margin-bottom: 20px;
+}
+
+.address{
+    margin-bottom: 10px;
     font-size: 0.8em;
 }
 
-.title-word{
-    margin: 10px 0px 50px;
+.phone{
+    margin-bottom: 10px;
     font-size: 0.8em;
 }
 
-.back{
-    border-radius: 100px;
-    border: 0.5px solid #604a40;
-    width: 45%;
-    text-align: center;
-    height: 30px;
-    line-height: 30px;
+.mail{
+    margin-bottom: 20px;
     font-size: 0.8em;
-    cursor: pointer;
-    color: #604a40;
 }
 
-.back:hover{
-    opacity: 0.6;
+.week{
+    margin-bottom: 10px;
+    font-size: 0.8em;
 }
 
-.rotate{
-    width: 70%;
+.time{
+    margin-bottom: 40px;
+    font-size: 0.8em;
 }
 
-.unit{
-    cursor: pointer;
-}
-
-.unit:hover{
-    opacity: 0.6;
-}
-
-.unit-img{
+.map{
     width: 100%;
-    border-radius: 100px;
-    transition: all 0.6s;
+    height: 250px;
+    background: #604a40;
+    margin-bottom: 40px;
 }
 
-.unit-num{
+.message{
+    margin-bottom: 20px;
     font-size: 0.8em;
-    text-align: center;
-    margin: 10px 0px 10px;
 }
 
-.unit-word{
+.form{
+    margin-bottom: 20px;
     font-size: 0.8em;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.next-img{
-    width: 30px;
+.input-regular{
+    background: none;
+    border: none;
+    background: none;
+    border: none;
+    border-top: 1px solid #604a40;
+    width: 320px;
     height: 50px;
-    margin-left: 50px;
-    cursor: pointer;
+}
+
+.input-area{
+    background: none;
+    border: none;
+    border-top: 1px solid #604a40;
+    border-bottom: 1px solid #604a40;
+    padding-top: 14px;
+}
+
+.send{
+    margin-bottom: 50px;
+    font-size: 0.8em;
 }

@@ -17,8 +17,8 @@ item5.addEventListener('mouseleave', leave)
 function over () {
     this.children[0].style.transform = 'scale(1.1)';
     this.children[0].style.opacity = '0.6';
-    this.children[1].style.marginTop = '12px';
-    this.children[1].style.paddingBottom = '14px';
+    // this.children[1].style.marginTop = '12px';
+    this.children[1].style.paddingBottom = '2px';
     this.children[1].style.opacity = '0.6';
     this.style.color = '#c59b6d';
 }

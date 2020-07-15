@@ -4,7 +4,9 @@ $(document).ready(function(){
         items:1,
         autoplay:true,
         autoplayTimeout:4000,
-        lazyLoad: true
+        lazyLoad: true,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut'
     });
 
 

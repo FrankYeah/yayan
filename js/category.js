@@ -43,4 +43,17 @@ $(document).ready(function(){
     swiper.slideNext()
   })
 
+  // 手機版選單點擊
+
+  var selectForm = document.getElementById('selectForm');
+  var formOpen = document.getElementById('formOpen');
+
+  selectForm.addEventListener('click', function() {
+    formOpen.style.display = 'flex'
+  })
+
+  formOpen.addEventListener('click', function() {
+    formOpen.style.display = 'none'
+  })
+
 })

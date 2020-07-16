@@ -186,6 +186,16 @@ a{
     cursor: pointer;
 }
 
+/* 隱藏選單 */
+
+.select-form {
+    display: none;
+}
+
+.form-open {
+    display: none;
+}
+
 @media( max-width: 1023px ){
 
     /* 消失 */
@@ -207,8 +217,6 @@ a{
     }
 
     /* 輪播 */
-
-
 
     .main{
         width: 100vw;
@@ -234,10 +242,11 @@ a{
 
     .sub-main{
         width: 100%;
+        margin-top: 100px;
     }
 
     .rotate{
-        width: 90%;
+        width: 100%;
     }
 
     .unit-img{
@@ -273,4 +282,98 @@ a{
 
 
     /* 上方選單 */
+
+    .select-form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: #604a40;
+        font-size: 14px;
+        top: 100px;
+    }
+
+    .form-box {
+        width: 290px;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        border: 1px solid #f2e3d8;;
+        border-radius: 30px;
+        padding: 8px 12px;
+    }
+
+    .form-arrow {
+        width: 12px;
+        height: 12px;
+        transform: rotate(90deg);
+        margin: 2px 0px 0px 15px;
+    }
+
+    .form-open {
+        width: 100%;
+        display: none;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: #604a40;
+        font-size: 14px;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .form-open-box {
+        width: 290px;
+        background-color: #fff;
+        border: 1px solid #f2e3d8;;
+        border-radius: 20px;
+        padding: 8px 12px;
+    }
+
+    .form-head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-open-arrow {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        transform: rotate(270deg);
+        margin: 4px 0px 0px 128px;
+    }
+
+    .form-line-box {
+        height: 20px;
+    }
+
+    .form-line {
+        height: 1.5px;
+        width: 270px;
+        background: #f2e3d8;
+        margin: 10px auto 0px;
+    }
+
+    .form-a {
+
+    }
+
+    .form-text-box {
+        display: flex;
+        justify-content: space-between;
+        width: 240px;
+        margin: 0px auto 12px;
+    }
+
+    .form-en {
+
+    }
+
+    .form-text {
+        letter-spacing: 5px;
+    }
+
 }

@@ -186,13 +186,13 @@ html body{
 
     .caption {
         font-size: 14px;
-        top: 70px;
+        top: 80px;
         width: 97%;
     }
 
     .sub-caption {
         font-size: 12px;
-        top: 95px;
+        top: 103px;
     }
 
     /* 中間輪播 */
@@ -221,10 +221,11 @@ html body{
 
     .sub-main{
         width: 100%;
+        margin-top: 100px;
     }
 
     .rotate{
-        width: 90%;
+        width: 100%;
     }
 
     .unit-img{

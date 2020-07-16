@@ -6,15 +6,15 @@ $(document).ready(function(){
     lazy: true,
     loop: true,
     slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+    spaceBetween: 30
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true,
+    // },
   });
 
-  document.querySelector('.next-img').addEventListener('click', function(){
-    swiper.slideNext()
-  })
+  // document.querySelector('.next-img').addEventListener('click', function(){
+  //   swiper.slideNext()
+  // })
 
 })

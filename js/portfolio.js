@@ -1,3 +1,5 @@
+// 電腦版 滑鼠效果
+
 var item1 = document.getElementById("item1");
 var item2 = document.getElementById("item2");
 var item3 = document.getElementById("item3");
@@ -31,3 +33,27 @@ function leave () {
     this.children[1].style.opacity = '1';
     this.style.color = '#604a40';
 }
+
+// 手機版輪播效果
+// https://swiperjs.com/api/
+
+$(document).ready(function(){
+
+    var swiper = new Swiper('.swiper-container', {
+      lazy: true,
+      loop: true,
+        effect: 'coverflow',
+        slidesPerView: '2',
+        spaceBetween: 30,
+        centeredSlides: true,
+        initialSlide: 3,
+        mousewheel: true,
+        grabCursor: true,
+        mousewheelControl: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  
+  })

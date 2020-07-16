@@ -108,6 +108,14 @@ html body{
     justify-content: center;
 }
 
+.desktop-mode {
+    display: flex;
+}
+
+.phone-mode {
+    display: none;
+}
+
 .caption{
     text-align: center;
     color: #604a40;
@@ -172,5 +180,80 @@ html body{
 
 .ch-word{
     font-size: 0.8em;
+}
 
+@media( max-width: 1023px ){
+
+    .caption {
+        font-size: 14px;
+        top: 70px;
+        width: 97%;
+    }
+
+    .sub-caption {
+        font-size: 12px;
+        top: 95px;
+    }
+
+    /* 中間輪播 */
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+        background: url('../img/share/marble.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .desktop-mode {
+        display: none;
+    }
+
+    .phone-mode {
+        display: flex;
+    }
+
+    .sub-main{
+        width: 100%;
+    }
+
+    .rotate{
+        width: 90%;
+    }
+
+    .unit-img{
+        width: 100%;
+        border-radius: 100px;
+        transition: all 0.6s;
+    }
+
+    .eng-word{
+        font-size: 0.8em;
+        margin-bottom: 8px;
+        color: #604a40;
+        text-align: center;
+        margin-top: 12px;
+    }
+    
+    .ch-word{
+        font-size: 0.8em;
+        color: #604a40;
+        text-align: center;
+    }
+
+    /* 左右兩側消失 */
+
+    .left-float {
+        display: none;
+    }
+
+    .right-float {
+        display: none;
+    }
 }

@@ -83,7 +83,7 @@ html body{
 .center{
     position: absolute;
     text-align: center;
-    top: 35%;
+    top: 39%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -98,8 +98,8 @@ html body{
     position: absolute;
     text-align: center;
     text-align: center;
-    width: 100px;
-    height: 128px;
+    width: 95px;
+    height: 120px;
 }
 
 .footer{

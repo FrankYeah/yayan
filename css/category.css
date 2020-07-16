@@ -12,7 +12,7 @@ a{
     color: #604a40;
 }
 
-/* 只有l ogo、menu-open 不一樣 */
+/* 只有logo、menu-open 顏色不一樣 */
 
 .logo{
     width: 30px;
@@ -41,7 +41,7 @@ a{
     cursor: pointer;
 }
 
-/* 只有l ogo、menu-open 不一樣 */
+/* 只有logo、menu-open 顏色不一樣 */
 
 /* 右側也會不同 */
 
@@ -94,20 +94,6 @@ a{
     opacity: 0.6;
 }
 
-.right-line{
-    width: 20px;
-    height: 20px;
-    background: url('../img/share/line-brown.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    cursor: pointer;
-}
-
-.right-line:hover{
-    opacity: 0.6;
-}
 
 /* 右側也會不同 */
 

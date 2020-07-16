@@ -9,7 +9,7 @@ html body{
 }
 
 
-/* 只有l ogo、menu-open 不一樣 */
+/* 只有logo、menu-open 顏色不一樣 */
 
 .logo{
     width: 30px;
@@ -38,7 +38,7 @@ html body{
     cursor: pointer;
 }
 
-/* 只有l ogo、menu-open 不一樣 */
+/* 只有logo、menu-open 顏色不一樣 */
 
 .main{
     width: 100vw;

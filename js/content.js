@@ -82,12 +82,10 @@ $(document).ready(function(){
             leftFloat[0].style.color = '#604a40';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
             document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";
-            document.querySelector('.right-line').style.backgroundImage = "url('../img/share/line-brown.png')";
         } else {
             leftFloat[0].style.color = 'white';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-white.png')";
             document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-white.png')";
-            document.querySelector('.right-line').style.backgroundImage = "url('../img/share/line-white.png')";
         }
     }
 

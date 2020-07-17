@@ -101,11 +101,11 @@ a{
 }
 
 
-/* 右側也會不同 */
+/* 右側也會不同結束 */
 
 .main-img{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -200,7 +200,7 @@ a{
     justify-content: space-between;
 }
 
-.center-single{
+.center-single-img{
     height: 150px;
     width: 150px;
     background-image: url('../img/content/marjorie/marjorie-main.jpg');
@@ -281,7 +281,6 @@ a{
 /* full img */
 
 .full-box{
-    /* display: none; */
     display: flex;
     visibility: hidden;
     position: fixed;
@@ -291,6 +290,12 @@ a{
     z-index: 2;
     left: 0;
     top: 0;
+}
+
+.full-box-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .full-inner{
@@ -323,3 +328,113 @@ a{
     z-index: 4;
 }
 
+@media( max-width: 1023px ){
+
+    .caption-out::before {
+        display: none;
+    }
+
+    .title-eng {
+        margin: 20px 0px;
+        line-height: 26px;
+    }
+
+    .body-width {
+        width: 88%;
+    }
+
+    .center-box {
+        margin: 30px 0px;
+    }
+
+    .center-big-img {
+        height: 300px;
+    }
+
+    .center-single-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .img-3 {
+        display: none;
+    }
+
+    .img-4 {
+        display: none;
+    }
+    
+
+    /* full img */
+
+    .full-box{
+
+    }
+    
+    .full-box-inner {
+
+    }
+    
+    .full-inner{
+        width: 88%;
+        margin: auto;
+    }
+    
+    .full-img{
+        width: 100%;
+    }
+
+    .full-left{
+        left: 2%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .full-right{
+        right: 2%;
+        width: 15px;
+        height: 15px;
+    }
+
+        /* full img 結束*/
+
+    .key-text {
+        padding: 0px 20px 50px
+    }
+
+    .excel-box {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .excel-left {
+        width: auto;
+        padding-right: 0;
+        line-height: auto;
+        color: #c59b6d;
+        font-size: 18px;
+    }
+
+    .excel-right {
+        width: auto;
+        line-height: auto;
+        margin-top: 10px;
+    }
+
+    .back {
+        margin: 40px auto 80px;
+    }
+
+
+    /* 左右兩側消失 */
+
+    .left-float {
+        display: none;
+    }
+
+    .right-float {
+        display: none;
+    }
+
+}

@@ -1,12 +1,11 @@
 $(document).ready(function(){
 
-
-
     var swiper = new Swiper('.swiper-container', {
       loop: true,
       lazy: true,
       autoplay: 1000,
-      slidesPerView: 1
+      slidesPerView: 1,
+      spaceBetween: 30
     });
 
 

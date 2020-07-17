@@ -129,12 +129,6 @@ a{
 
 .about-img{
     width: 400px;
-    height: 200px;
-    background: url('../img/index/index-main-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
     margin-bottom: 40px;
 }
 
@@ -147,4 +141,41 @@ a{
     text-align: center;
     line-height: 30px;
     font-size: 0.8em;
+}
+
+@media( max-width: 1023px ){
+
+    .main-outer {
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .about-us {
+        margin-bottom: 6px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-title {
+        font-size: 16px;
+    }
+
+    .about-text {
+        font-size: 12px;
+        padding: 0px 50px;
+        margin-bottom: 60px;
+    }
+
+    /* 左右消失 */
+
+    .left-float {
+        display: none;
+    }
+
+    .right-float {
+        display: none;
+    }
+
 }

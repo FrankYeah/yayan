@@ -168,7 +168,7 @@ a{
 /*  */
 
 .body-width{
-    width: 65%;
+    width: 950px;
     margin: auto;
 }
 
@@ -201,8 +201,8 @@ a{
 }
 
 .center-single-img{
-    height: 150px;
-    width: 150px;
+    height: 177px;
+    width: 177px;
     background-image: url('../img/content/marjorie/marjorie-main.jpg');
     background-repeat: no-repeat;
     background-size: cover;

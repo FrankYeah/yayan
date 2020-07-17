@@ -99,6 +99,7 @@ a{
 .main{
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     background: url('../img/share/marble.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,6 +144,114 @@ a{
     font-size: 0.8em;
 }
 
+
+/* 輪播 img */
+
+.center-box{
+    height: auto;
+    margin: 60px 0px;
+}
+
+.center-big-img{
+    height: 400px;
+    width: 100%;
+    /* background-image: url('../img/content/marjorie/marjorie-main.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.center-big-img:hover{
+    opacity: 0.6;
+}
+
+.center-single-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-single-img{
+    height: 177px;
+    width: 177px;
+    margin: 0px 8px;
+    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.last-center-single{
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4em;
+}
+
+.center-single:hover{
+    opacity: 0.6;
+}
+
+
+/* full img */
+
+.full-box{
+    display: flex;
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+
+.full-box-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.full-inner{
+    width: 65%;
+    margin: auto auto;
+}
+
+.full-img{
+    width: 100%;
+    margin: 5% 0%;
+}
+
+.full-left{
+    position: absolute;
+    left: 10%;
+    top: 46%;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 4;
+}
+
+.full-right{
+    position: absolute;
+    right: 10%;
+    top: 46%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+
+
 @media( max-width: 1023px ){
 
     .main-outer {
@@ -167,6 +276,65 @@ a{
         padding: 0px 50px;
         margin-bottom: 60px;
     }
+
+
+    .center-box {
+        width: 80%;
+        margin: 30px 0px;
+    }
+
+    .center-big-img {
+        height: 180px;
+    }
+
+    .center-single-img {
+        width: 30%;
+        height: 80px;
+    }
+
+    .img-3 {
+        display: none;
+    }
+
+    .img-4 {
+        display: none;
+    }
+    
+
+    /* full img */
+
+    .full-box{
+
+    }
+    
+    .full-box-inner {
+
+    }
+    
+    .full-inner{
+        width: 88%;
+        margin: auto;
+    }
+    
+    .full-img{
+        width: 97%;
+        margin: 63% 0%;
+    }
+
+    .full-left{
+        left: 2%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .full-right{
+        right: 2%;
+        width: 15px;
+        height: 15px;
+    }
+
+        /* full img 結束*/
+
 
     /* 左右消失 */
 

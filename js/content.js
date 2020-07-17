@@ -8,7 +8,6 @@ $(document).ready(function(){
       spaceBetween: 30
     });
 
-
     var fullBox = document.getElementById("fullBox");
     var leftArrow = document.getElementById("leftArrow");
     var rightArrow = document.getElementById("rightArrow");
@@ -75,16 +74,24 @@ $(document).ready(function(){
     // 當滑到這裡要變色
 
     function detectScroll () {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-        let offsetTop = document.querySelector('.caption-out').offsetTop
+
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+        var offsetTop = document.querySelector('.caption-out').offsetTop
+        console.log(offsetTop)
+        console.log(scrollTop)
         if (scrollTop > offsetTop - 200) {
             leftFloat[0].style.color = '#604a40';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
             document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";
+            document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-brown.png')";
+            document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-brown.png')";
+
         } else {
             leftFloat[0].style.color = 'white';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-white.png')";
             document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-white.png')";
+            document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-white.png')";
+            document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-white.png')";
         }
     }
 

@@ -110,6 +110,14 @@ a{
     justify-content: center;
 }
 
+.desktop-mode {
+    display: flex;
+}
+
+.phone-mode {
+    display: none;
+}
+
 .sub-main{
     display: flex;
     max-width: 800px;

@@ -307,6 +307,13 @@ a{
     width: 100%;
 }
 
+.full-img-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .full-left{
     position: absolute;
     left: 10%;
@@ -381,17 +388,19 @@ a{
     }
     
     .full-img{
-        width: 100%;
+        width: 97%;
     }
 
     .full-left{
         left: 2%;
+        top: 49%;
         width: 15px;
         height: 15px;
     }
 
     .full-right{
         right: 2%;
+        top: 49%;
         width: 15px;
         height: 15px;
     }

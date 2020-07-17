@@ -224,9 +224,15 @@ a{
     margin: auto auto;
 }
 
+.full-img-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .full-img{
     width: 100%;
-    margin: 5% 0%;
 }
 
 .full-left{
@@ -318,17 +324,18 @@ a{
     
     .full-img{
         width: 97%;
-        margin: 63% 0%;
     }
 
     .full-left{
         left: 2%;
+        top: 49%;
         width: 15px;
         height: 15px;
     }
 
     .full-right{
         right: 2%;
+        top: 49%;
         width: 15px;
         height: 15px;
     }

@@ -186,12 +186,27 @@ a{
 }
 
 .last-center-single{
-    opacity: 0.6;
+    position: relative;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 1.4em;
+}
+
+.last-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.last-cover-num {
+    z-index: 2;
 }
 
 .center-single:hover{
@@ -286,7 +301,7 @@ a{
 
     .center-box {
         width: 80%;
-        margin: 30px 0px;
+        margin: 30px 0px 90px;
     }
 
     .center-big-img {

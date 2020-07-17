@@ -117,4 +117,9 @@ html body{
     html body{
         font-size: 12px;
     }
+
+    .center-img {
+        width: 60px;
+        height: 80px;
+    }
 }

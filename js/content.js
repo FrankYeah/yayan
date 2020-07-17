@@ -77,8 +77,8 @@ $(document).ready(function(){
 
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
         var offsetTop = document.querySelector('.caption-out').offsetTop
-        console.log(offsetTop)
-        console.log(scrollTop)
+        alert(offsetTop)
+        alert(scrollTop)
         if (scrollTop > offsetTop - 200) {
             leftFloat[0].style.color = '#604a40';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";

@@ -73,28 +73,27 @@ $(document).ready(function(){
 
     // 當滑到這裡要變色
 
-    function detectScroll () {
+    // function detectScroll () {
 
-        // var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-        var scrollTop = document.documentElement.scrollTop
-        var offsetTop = document.querySelector('.caption-out').offsetTop
-        if (scrollTop > 800) {
-            leftFloat[0].style.color = '#604a40';
-            document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
-            document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";
-            document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-brown.png')";
-            document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-brown.png')";
+    //     var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+    //     var offsetTop = document.querySelector('.caption-out').offsetTop
+    //     if (scrollTop > offsetTop - 200) {
+    //         leftFloat[0].style.color = '#604a40';
+    //         document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
+    //         document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";
+    //         document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-brown.png')";
+    //         document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-brown.png')";
 
-        } else {
-            leftFloat[0].style.color = 'white';
-            document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-white.png')";
-            document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-white.png')";
-            document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-white.png')";
-            document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-white.png')";
-        }
-    }
+    //     } else {
+    //         leftFloat[0].style.color = 'white';
+    //         document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-white.png')";
+    //         document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-white.png')";
+    //         document.querySelector('.logo').style.backgroundImage = "url('../img/share/icon-white.png')";
+    //         document.querySelector('.menu-open').style.backgroundImage = "url('../img/share/menu-white.png')";
+    //     }
+    // }
 
-    window.addEventListener('scroll', detectScroll)
-    detectScroll()
+    // window.addEventListener('scroll', detectScroll)
+    // detectScroll()
 
   })

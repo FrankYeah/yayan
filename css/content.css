@@ -23,7 +23,7 @@ a{
 .logo{
     width: 30px;
     height: 30px;
-    background: url('../img/share/icon-white.png');
+    background: url('../img/share/icon-brown.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -36,7 +36,7 @@ a{
 .menu-open{
     width: 20px;
     height: 20px;
-    background: url('../img/share/menu-white.png');
+    background: url('../img/share/menu-brown.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -375,7 +375,7 @@ a{
     }
 
     .center-single-img {
-        width: 30%;
+        width: 30.8%;
         height: 90px;
     }
 

@@ -75,11 +75,10 @@ $(document).ready(function(){
 
     function detectScroll () {
 
-        var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+        // var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+        var scrollTop = document.documentElement.scrollTop
         var offsetTop = document.querySelector('.caption-out').offsetTop
-        alert(offsetTop)
-        alert(scrollTop)
-        if (scrollTop > offsetTop - 200) {
+        if (scrollTop > 800) {
             leftFloat[0].style.color = '#604a40';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";
             document.querySelector('.right-ig').style.backgroundImage = "url('../img/share/ig-brown.png')";

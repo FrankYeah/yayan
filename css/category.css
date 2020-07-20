@@ -57,8 +57,8 @@ a{
 .right-float{
     position: absolute;
     right: 52px;
-    top: 37%;
-    height: 128px;
+    top: 44.5%;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -185,6 +185,7 @@ a{
 .unit-word{
     font-size: 0.8em;
     text-align: center;
+    line-height: 22px;
 }
 
 .next-img{

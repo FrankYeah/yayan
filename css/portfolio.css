@@ -24,8 +24,8 @@ html body{
 .right-float{
     position: absolute;
     right: 52px;
-    top: 37%;
-    height: 128px;
+    top: 44.5%;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,7 +171,7 @@ html body{
 
 .straight-line{
     height: 50px;
-    width: 2px;
+    width: 0.5px;
     background: #604a40;
     margin-bottom: 8px;
     transition: all 0.6s;
@@ -189,13 +189,11 @@ html body{
 @media( max-width: 1023px ){
 
     .caption {
-        font-size: 14px;
         top: 80px;
         width: 97%;
     }
 
     .sub-caption {
-        font-size: 12px;
         top: 103px;
     }
 

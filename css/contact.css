@@ -57,8 +57,8 @@ a{
 .right-float{
     position: fixed;
     right: 52px;
-    top: 37%;
-    height: 128px;
+    top: 44.5%;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -117,7 +117,7 @@ a{
 }
 
 .contact-word{
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     letter-spacing: 10px;
     padding-left: 5px;
 }
@@ -125,7 +125,8 @@ a{
 .yayan-design{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
 }
 
 .contact-icon {
@@ -142,26 +143,31 @@ a{
 .address{
     margin-bottom: 10px;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .phone{
     margin-bottom: 10px;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .mail{
     margin-bottom: 20px;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .week{
     margin-bottom: 10px;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .time{
     margin-bottom: 40px;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .contact-social {

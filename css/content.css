@@ -63,8 +63,8 @@ a{
 .right-float{
     position: fixed;
     right: 52px;
-    top: 37%;
-    height: 128px;
+    top: 44.5%;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -135,6 +135,7 @@ a{
     position: absolute;
     left: 18%;
     bottom: -60px;
+    opacity: 0.8;
 }
 
 .caption-inner{
@@ -148,27 +149,31 @@ a{
     font-size: 0.8em;
 }
 
-.gategory-word{
+.category-word{
     border-radius: 100px;
     border: 0.5px solid #604a40;
     width: 100px;
     height: 28px;
     line-height: 28px;
+    letter-spacing: 4px;
 }
 
 .title-eng{
+    font-size: 18px;
+    width: 370px;
     margin: 20px;
     line-height: 20px;
 }
 
 .title{
     font-size: 18px;
+    letter-spacing: 6px;
 }
 
 /*  */
 
 .body-width{
-    width: 950px;
+    width: 930px;
     margin: auto;
 }
 
@@ -249,12 +254,13 @@ a{
 .key-title{
     text-align: center;
     padding-bottom: 40px;
+    letter-spacing: 6px;
 }
 
 .key-text{
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     font-size: 0.8em;
-    line-height: 28px;
+    line-height: 32px;
     text-align: justify;
 }
 
@@ -267,7 +273,7 @@ a{
 }
 
 .excel-left{
-    width: 25%;
+    width: 140px;
     padding-right: 1%;
     line-height: 20px;
 }
@@ -358,6 +364,7 @@ a{
     }
 
     .title-eng {
+        width: auto;
         margin: 20px 0px;
         line-height: 26px;
     }

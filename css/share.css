@@ -54,8 +54,7 @@ a{
 
 .portfolio{
     color: #f2e3d8;
-    margin-bottom: 10px;
-    padding-bottom: 6px;
+    margin-bottom: 2px;
     cursor: pointer;
     font-size: 1em;
     letter-spacing: 3px;
@@ -64,7 +63,14 @@ a{
 
 .portfolio:hover{
     color: #c59b6d;
-    border-bottom: 1px solid;
+}
+
+.menu-portfolio-line {
+    width: 120px;
+    height: 1px;
+    background-color: #c59b6d;
+    margin-bottom: 20px;
+    visibility: hidden;
 }
 
 .list-style{
@@ -85,7 +91,7 @@ a{
 
 .class-style{
     color: #f2e3d8;
-    margin-bottom: 12px;
+    margin-bottom: 3px;
     cursor: pointer;
     letter-spacing: 3px;
     font-size: 1em;
@@ -94,6 +100,30 @@ a{
 
 .class-style:hover{
     color: #c59b6d;
+}
+
+.menu-about-line {
+    width: 115px;
+    height: 1px;
+    background-color: #c59b6d;
+    margin-bottom: 12px;
+    visibility: hidden;
+}
+
+.menu-contanct-line {
+    width: 110px;
+    height: 1px;
+    background-color: #c59b6d;
+    margin-bottom: 12px;
+    visibility: hidden;
+}
+
+.menu-home-line {
+    width: 70px;
+    height: 1px;
+    background-color: #c59b6d;
+    margin: 0px 20.5px 12px;
+    visibility: hidden;
 }
 
 .menu-social{

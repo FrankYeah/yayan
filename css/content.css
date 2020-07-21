@@ -58,6 +58,7 @@ a{
     top: 30%;
     writing-mode: vertical-rl;
     color: white;
+    font-family: 'GoudyOldStyle';
 }
 
 .right-float{
@@ -163,6 +164,7 @@ a{
     width: 370px;
     margin: 20px;
     line-height: 20px;
+    font-family: 'GoudyOldStyle';
 }
 
 .title{
@@ -237,6 +239,7 @@ a{
 }
 
 .last-cover-num {
+    font-family: 'GoudyOldStyle';
     z-index: 2;
 }
 
@@ -249,6 +252,7 @@ a{
 .key-title-en{
     text-align: center;
     padding: 15px 0px;
+    font-family: 'GoudyOldStyle';
 }
 
 .key-title{

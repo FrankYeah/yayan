@@ -52,6 +52,7 @@ a{
     top: 30%;
     writing-mode: vertical-rl;
     color: #604a40;
+    font-family: 'GoudyOldStyle';
 }
 
 .right-float{
@@ -114,6 +115,7 @@ a{
 
 .contact-eng{
     margin-bottom: 6px;
+    font-family: 'GoudyOldStyle';
 }
 
 .contact-word{
@@ -150,12 +152,14 @@ a{
     margin-bottom: 10px;
     font-size: 0.8em;
     letter-spacing: 2px;
+    font-family: 'GoudyOldStyle';
 }
 
 .mail{
     margin-bottom: 20px;
     font-size: 0.8em;
     letter-spacing: 2px;
+    font-family: 'GoudyOldStyle';
 }
 
 .week{
@@ -168,6 +172,7 @@ a{
     margin-bottom: 40px;
     font-size: 0.8em;
     letter-spacing: 2px;
+    font-family: 'GoudyOldStyle';
 }
 
 .contact-social {
@@ -203,6 +208,7 @@ a{
     height: 40px;
     color: #604a40;
     padding: 6px;
+    font-family: 'GoudyOldStyle';
 }
 
 .input-area{
@@ -212,6 +218,7 @@ a{
     border-bottom: 1px solid #604a40;
     padding-top: 14px;
     color: #604a40;
+    font-family: 'GoudyOldStyle';
 }
 
 .send{

@@ -52,6 +52,7 @@ a{
     top: 30%;
     writing-mode: vertical-rl;
     color: #604a40;
+    font-family: 'GoudyOldStyle';
 }
 
 .right-float{
@@ -120,6 +121,7 @@ a{
 
 .about-us{
     margin-bottom: 10px;
+    font-family: 'GoudyOldStyle';
 }
 
 .about-yayan{
@@ -206,6 +208,7 @@ a{
 }
 
 .last-cover-num {
+    font-family: 'GoudyOldStyle';
     z-index: 2;
 }
 

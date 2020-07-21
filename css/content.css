@@ -6,7 +6,7 @@ html body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url('../img/share/marble.jpg');
+    /* background-image: url('../img/share/marble.jpg'); */
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -185,6 +185,7 @@ a{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    background-image: url('../img/share/marble.jpg');
     z-index: -1;
 }
 

@@ -136,6 +136,17 @@ a{
     align-items: center;
 }
 
+.caption-float {
+    position: fixed;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-eng{
     font-size: 0.8em;
     font-family: 'GoudyOldStyle';
@@ -227,6 +238,10 @@ a{
     }
 
     .caption {
+        display: none;
+    }
+
+    .caption-float {
         display: none;
     }
 

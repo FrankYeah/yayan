@@ -79,6 +79,19 @@ $(document).ready(function(){
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
         var offsetTop = document.querySelector('.center-big-img').offsetTop
 
+
+        // test
+
+        var windowHeightT = document.getElementById("windowHeight");
+        var scrollTopT = document.getElementById("scrollTop");
+        var offsetTopT = document.getElementById("offsetTop");
+
+        windowHeightT.textContent = windowHeight
+        scrollTopT.textContent = scrollTop
+        offsetTopT.textContent = offsetTop
+
+        // test
+
         if (windowHeight + scrollTop > offsetTop) {
             leftFloat[0].style.color = '#604a40';
             document.querySelector('.right-fb').style.backgroundImage = "url('../img/share/fb-brown.png')";

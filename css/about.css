@@ -324,11 +324,21 @@ a{
 
     .center-big-img {
         height: 180px;
+        margin-bottom: 4px;
     }
 
     .center-single-img {
-        width: 30%;
+        width: 32.5%;
         height: 80px;
+        margin: 0px 2px;
+    }
+
+    .center-single-img:first-child{
+        margin: 0px 2px 0px 0px;
+    }
+    
+    .center-single-img:last-child{
+        margin: 0px 0px 0px 2px;
     }
 
     .img-3 {

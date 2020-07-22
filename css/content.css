@@ -411,10 +411,11 @@ a{
 
     .center-big-img {
         height: 300px;
+        margin-bottom: 4px;
     }
 
     .center-single-img {
-        width: 30.8%;
+        width: 32.4%;
         height: 90px;
     }
 

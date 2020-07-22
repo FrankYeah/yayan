@@ -170,7 +170,7 @@ a{
 }
 
 .back:hover{
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 
 .rotate{
@@ -181,14 +181,14 @@ a{
     cursor: pointer;
 }
 
-.unit:hover{
+/* .unit:hover{
     opacity: 0.6;
-}
+} */
 
 .unit-img{
     width: 100%;
     border-radius: 100px;
-    transition: all 0.6s;
+    transition: all 0.3s;
 }
 
 .unit-num{

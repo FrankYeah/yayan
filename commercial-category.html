@@ -19,47 +19,43 @@
         <div class="caption-float">
             <div class="title-eng">MEDICAL SPACE</div>
             <div class="title-word">醫療空間</div>
-            <div class="back"><a href="./portfolio.html">回上頁</a></div>
+            <div id="back" class="back"><a href="./portfolio.html">回上頁</a></div>
         </div>
         <div class="sub-main">
-            <div class="caption">
-                <!-- <div class="title-eng">MEDICAL SPACE</div>
-                <div class="title-word">醫療空間</div>
-                <div class="back"><a href="./portfolio.html">回上頁</a></div> -->
-            </div>
+            <div class="caption"></div>
 
             <div class="swiper-container rotate">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide unit">
-                        <a href="./commercial-c2.html">
+                        <a href="./commercial-c2.html"  id="item1">
                             <img class="unit-img" src="./img/category/medical/medical-1.jpg" alt="medical">
                             <div class="unit-num">O1</div>
                             <div class="unit-word">彰化基督教醫院<br>國際醫療暨<br><span style="font-family: 'GoudyOldStyle';">VIP</span>病房</div>
                         </a>
                     </div>
                     <div class="swiper-slide unit">
-                        <a href="./commercial-c2.html">
+                        <a href="./commercial-c2.html"  id="item2">
                             <img class="unit-img" src="./img/category/medical/medical-2.jpg" alt="medical">
                             <div class="unit-num">O2</div>
                             <div class="unit-word">超音波檢查室</div>
                         </a>
                     </div>
                     <!-- <div class="swiper-slide unit">
-                        <a href="./commercial-c2.html">
+                        <a href="./commercial-c2.html"  id="item3">
                             <img class="unit-img" src="./img/category/medical/medical-3.jpg" alt="medical">
                             <div class="unit-num">O3</div>
                             <div class="unit-word">彰基VIP病房</div>
                         </a>
                     </div>
                     <div class="swiper-slide unit">
-                        <a href="./commercial-c2.html">
+                        <a href="./commercial-c2.html"  id="item4">
                             <img class="unit-img" src="./img/category/medical/medical-1.jpg" alt="medical">
                             <div class="unit-num">O4</div>
                           <div class="unit-word">彰基學院</div>
                         </a>
                     </div>
                     <div class="swiper-slide unit">
-                        <a href="./commercial-c2.html">
+                        <a href="./commercial-c2.html"  id="item5">
                             <img class="unit-img" src="./img/category/medical/medical-2.jpg" alt="medical">
                             <div class="unit-num">O5</div>
                             <div class="unit-word">彰基企業樓</div>
@@ -110,9 +106,9 @@
                         <a class="href-img" href="./commercial-category.html">
                             <img class="unit-img" src="./img/portfolio/deco.jpg" alt="medical">
                             <div class="eng-word">DECO</div>
-                            <div class="ch-word">陳列設計</div> -->
+                            <div class="ch-word">陳列設計</div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -211,6 +207,40 @@
 <script src="./swiper/swiper.min.js"></script>
 <script src="./js/share.js"></script>
 <script src="./js/category.js"></script>
+<script>
+
+
+  // hover 效果
+
+  var item1 = document.getElementById("item1");
+  var item2 = document.getElementById("item2");
+  // var item3 = document.getElementById("item3");
+  // var item4 = document.getElementById("item4");
+  // var item5 = document.getElementById("item5");
+  item1.addEventListener('mouseover', over)
+  item2.addEventListener('mouseover', over)
+  // item3.addEventListener('mouseover', over)
+  // item4.addEventListener('mouseover', over)
+  // item5.addEventListener('mouseover', over)
+  item1.addEventListener('mouseleave', leave)
+  item2.addEventListener('mouseleave', leave)
+  // item3.addEventListener('mouseleave', leave)
+  // item4.addEventListener('mouseleave', leave)
+  // item5.addEventListener('mouseleave', leave)
+
+  function over () {
+    this.children[0].style.opacity = '0.6';
+    this.style.color = '#c59b6d';
+  }
+
+  function leave () {
+    this.children[0].style.opacity = '1';
+      this.style.color = '#604a40';
+  }
+
+  // hover 效果結束
+
+</script>
 </body>
 
 </html>

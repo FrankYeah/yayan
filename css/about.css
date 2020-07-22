@@ -164,7 +164,7 @@ a{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
     cursor: pointer;
 }
 
@@ -180,7 +180,7 @@ a{
 .center-single-img{
     height: 177px;
     width: 177px;
-    margin: 0px 8px;
+    margin: 0px 4px;
     background-image: url('../img/content/marjorie/marjorie-main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,12 +189,16 @@ a{
     cursor: pointer;
 }
 
+.center-single-img:hover{
+    opacity: 0.6;
+}
+
 .center-single-img:first-child{
-    margin: 0px 8px 0px 0px;
+    margin: 0px 4px 0px 0px;
 }
 
 .center-single-img:last-child{
-    margin: 0px 0px 0px 8px;
+    margin: 0px 0px 0px 4px;
 }
 
 .last-center-single{

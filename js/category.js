@@ -1,5 +1,24 @@
 $(document).ready(function(){
 
+  // hover 變色
+
+  var back = document.getElementById("back");
+  back.addEventListener('mouseover', over)
+  back.addEventListener('mouseleave', leave)
+
+  function over () {
+    this.style.border = '0.5px solid #c59b6d';
+    this.children[0].style.color = '#c59b6d';
+  }
+
+  function leave () {
+    this.style.border = '0.5px solid #604a40';
+    this.children[0].style.color = '#604a40';
+  }
+
+  // hover 變色結束
+
+
   if(window.screen.availWidth > 1023) {
     // 電腦版
 

@@ -378,6 +378,15 @@ a{
 
 @media( max-width: 1023px ){
 
+    .main-img{
+        height: 65vh;
+    }
+    
+    .caption-out{
+        height: 35vh;
+        /* padding: 20px 0px; */
+    }
+
     .caption-out::before {
         display: none;
     }

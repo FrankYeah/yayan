@@ -58,7 +58,7 @@ a{
 
 .right-float{
     position: fixed;
-    right: 52px;
+    right: 42px;
     top: 50%;
     transform: translate(-50%, -50%);
     height: 80px;
@@ -390,7 +390,7 @@ a{
 
     .full-img{
         width: auto;
-        height: 80%
+        height: 70%
     }
 
 }

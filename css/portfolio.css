@@ -197,10 +197,12 @@ html body{
 
     .caption {
         top: 80px;
+        text-indent: 3px;
     }
 
     .sub-caption {
         top: 108px;
+        text-indent: 17px;
     }
 
     /* 中間輪播 */

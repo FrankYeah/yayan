@@ -125,7 +125,8 @@ html body{
     position: absolute;
     left: 0px;
     top: 40px;
-    width: 98.8%;
+    width: 100%;
+    text-indent: -14px;
     font-family: 'GoudyOldStyle';
 }
 
@@ -133,6 +134,7 @@ html body{
     text-align: center;
     color: #604a40;
     letter-spacing: 17px;
+    text-indent: 1px;
     position: absolute;
     left: 0px;
     top: 70px;

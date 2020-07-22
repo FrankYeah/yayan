@@ -5,7 +5,7 @@ $(document).ready(function(){
       lazy: true,
       autoplay: 1000,
       slidesPerView: 1,
-      spaceBetween: 30
+      spaceBetween: 0
     });
 
     var fullBox = document.getElementById("fullBox");

@@ -160,13 +160,12 @@ a{
 .back{
     border-radius: 100px;
     border: 0.5px solid #604a40;
-    width: 45%;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
     text-align: center;
-    height: 30px;
-    line-height: 30px;
     font-size: 0.8em;
     cursor: pointer;
-    color: #604a40;
 }
 
 .back:hover{

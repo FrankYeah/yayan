@@ -340,12 +340,8 @@ a{
 }
 
 .full-inner{
-    width: 65%;
+    width: 100%;
     margin: auto;
-}
-
-.full-img{
-    height: 80%;
 }
 
 .full-img-box {
@@ -353,6 +349,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.full-img{
+    height: 80%;
 }
 
 .full-left{

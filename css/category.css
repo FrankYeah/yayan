@@ -339,13 +339,15 @@ a{
         border: 1px solid #f2e3d8;;
         border-radius: 30px;
         padding: 8px 12px;
+        letter-spacing: 2px;
     }
 
     .form-arrow {
+        position: absolute;
         width: 12px;
         height: 12px;
         transform: rotate(90deg);
-        margin: 2px 0px 0px 15px;
+        margin: 5px 0px 0px 270px;
     }
 
     .form-open {
@@ -380,7 +382,7 @@ a{
         width: 12px;
         height: 12px;
         transform: rotate(270deg);
-        margin: 4px 0px 0px 128px;
+        margin: 4px 0px 0px 270px;
     }
 
     .form-line-box {

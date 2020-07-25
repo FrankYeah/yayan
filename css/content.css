@@ -225,7 +225,7 @@ a{
 .center-single-img{
     height: 180px;
     width: 180px;
-    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    /* background-image: url('../img/content/marjorie/marjorie-main.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

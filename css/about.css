@@ -181,7 +181,7 @@ a{
     height: 177px;
     width: 177px;
     margin: 0px 4px;
-    background-image: url('../img/content/marjorie/marjorie-main.jpg');
+    /* background-image: url('../img/content/marjorie/marjorie-main.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

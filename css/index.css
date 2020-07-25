@@ -49,27 +49,6 @@ html body{
 .img-1{
     width: 100vw;
     height: 100vh;
-    background: url(../img/index/index-main-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.img-2{
-    width: 100vw;
-    height: 100vh;
-    background: url(../img/index/index-main-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.img-3{
-    width: 100vw;
-    height: 100vh;
-    background: url(../img/index/index-main-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

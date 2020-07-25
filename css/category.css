@@ -344,10 +344,13 @@ a{
 
     .form-arrow {
         position: absolute;
+        top: 50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%) rotate(90deg);
         width: 12px;
         height: 12px;
-        transform: rotate(90deg);
-        margin: 5px 0px 0px 270px;
+        margin: 0px 0px 0px 285px;
+        display: none;
     }
 
     .form-open {
@@ -379,10 +382,14 @@ a{
 
     .form-open-arrow {
         position: absolute;
+        top: 50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%) rotate(90deg);
         width: 12px;
         height: 12px;
         transform: rotate(270deg);
-        margin: 4px 0px 0px 270px;
+        margin: 0px 0px 0px 270px;
+        display: none;
     }
 
     .form-line-box {

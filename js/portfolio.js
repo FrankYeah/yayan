@@ -46,7 +46,7 @@ $(document).ready(function(){
         slidesPerView: '2',
         spaceBetween: 30,
         centeredSlides: true,
-        initialSlide: 3,
+        initialSlide: 0,
         mousewheel: true,
         grabCursor: true,
         mousewheelControl: true,

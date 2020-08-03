@@ -312,8 +312,9 @@ a{
 
     .about-text {
         font-size: 12px;
-        padding: 0px 50px;
+        padding: 0px 0px;
         margin-bottom: 40px;
+        letter-spacing: 2px;
     }
 
 

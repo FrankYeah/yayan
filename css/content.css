@@ -438,13 +438,23 @@ a{
     }
 
     .img-3 {
-        display: none;
+        position: relative;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4em;
     }
 
     .img-4 {
         display: none;
     }
     
+
+    .last-center-single {
+        display: none;
+    }
 
     /* full img */
 

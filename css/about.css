@@ -8,6 +8,14 @@ html body{
     /* font-family: 'Noto Sans TC', '微軟正黑體', sans-serif; */
 }
 
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 a{
     color: #604a40;
 }
@@ -293,6 +301,14 @@ a{
 
 @media( max-width: 1023px ){
 
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    }
+
     .main-outer {
         width: 100%;
         margin-top: 90px;
@@ -343,10 +359,20 @@ a{
     }
 
     .img-3 {
-        display: none;
+        position: relative;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.4em;
     }
 
     .img-4 {
+        display: none;
+    }
+
+    .last-center-single {
         display: none;
     }
     

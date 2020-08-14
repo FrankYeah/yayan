@@ -176,6 +176,10 @@ a{
     font-size: 0.7em;
 }
 
+.menu-a {
+    color: #f2e3d8;
+}
+
 #tradition{
     cursor: pointer;
 }

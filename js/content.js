@@ -113,17 +113,17 @@ $(document).ready(function(){
 
         if (windowHeight + scrollTop > offsetTop) {
             leftFloat[0].style.color = '#604a40';
-            document.querySelector('.right-fb').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/fb-brown_OHrsXSy-dC.png')";
-            document.querySelector('.right-ig').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/ig-brown_1vMu4r0ct.png')";
-            document.querySelector('.logo').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/icon-brown_VKLysCOjDJV.png')";
-            document.querySelector('.menu-open').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/menu-brown_2lONjaIULr.png')";
+            document.querySelector('.right-fb').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/fb-brown_hxD6oKllrMb.png')";
+            document.querySelector('.right-ig').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/ig-brown_WKN-DLRMg0.png')";
+            document.querySelector('.logo').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/icon-brown_SO17Xdr6zZB.png')";
+            document.querySelector('.menu-open').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/menu-brown_JYv4dywohsGf.png')";
 
         } else {
             leftFloat[0].style.color = 'white';
-            document.querySelector('.right-fb').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/fb-white_OJOYYxm1v.png')";
-            document.querySelector('.right-ig').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/ig-white_II5PBPhVB1.png')";
-            document.querySelector('.logo').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/icon-white_GUI2kxaVEO.png')";
-            document.querySelector('.menu-open').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/menu-white_UtPlT0nVo.png')";
+            document.querySelector('.right-fb').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/fb-white_5t99p-ITml.png')";
+            document.querySelector('.right-ig').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/ig-white_SuwnqqWji.png')";
+            document.querySelector('.logo').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/icon-white_TyyO5wPRM.png')";
+            document.querySelector('.menu-open').style.backgroundImage = "url('https://ik.imagekit.io/yayan/share/menu-white_HMJDyU4UCerB.png')";
         }
     }
 

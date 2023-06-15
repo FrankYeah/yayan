@@ -289,7 +289,7 @@ a{
 
     .main{
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background: url('../img/share/marble.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -303,7 +303,7 @@ a{
     
     .office-main{
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background: url('../img/share/marble.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -312,6 +312,11 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 200px;
+    }
+    .portfolio-content-img{
+
+        margin-right: 0px;
     }
 
     /* .desktop-mode {
@@ -375,7 +380,7 @@ a{
         width: 100%;
         display: flex;
         justify-content: center;
-        position: fixed;
+        position: absolute;
         top: 0px;
         left: 0px;
         color: #604a40;

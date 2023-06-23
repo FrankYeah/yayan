@@ -3,7 +3,7 @@ $(document).ready(function () {
     loop: true,
     items: 1,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 5000,
     lazyLoad: true,
     // animateIn: 'fadeIn',
     // animateOut: 'fadeOut',

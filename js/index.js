@@ -3,10 +3,10 @@ $(document).ready(function () {
     loop: true,
     items: 1,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 3000,
     lazyLoad: true,
-    // animateIn: 'fadeIn',
-    // animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
   });
 
   // var menuOpen = document.getElementById("menuOpen");

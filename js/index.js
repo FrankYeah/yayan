@@ -5,7 +5,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 5000,
     lazyLoad: false,
-    startPosition: 1,
+    // startPosition: 1,
     // animateIn: 'fadeIn',
     // animateOut: 'fadeOut',
   });

@@ -5,8 +5,8 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 4000,
     lazyLoad: true,
-    animateIn: 'fadeIn',
-    animateOut: 'fadeOut',
+    // animateIn: 'fadeIn',
+    // animateOut: 'fadeOut',
   });
 
   // var menuOpen = document.getElementById("menuOpen");

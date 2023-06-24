@@ -17,6 +17,8 @@ $(document).ready(function () {
       autoplay: true,
       autoplayTimeout: 5000,
       lazyLoad: false,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut',
     });
     owl.trigger('to.owl.carousel', [1]);
   };

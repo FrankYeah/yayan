@@ -6,7 +6,7 @@ $(document).ready(function () {
       items: 1,
       autoplay: true,
       autoplayTimeout: 5000,
-      lazyLoad: false,
+      // lazyLoad: false,
       // animateIn: 'fadeIn',
       // animateOut: 'fadeOut',
     });

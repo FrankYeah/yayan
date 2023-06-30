@@ -1,6 +1,5 @@
 $(document).ready(function () {
   window.onload = function () {
-    console.log('123');
     var owl = $('.owl-carousel').owlCarousel({
       loop: true,
       items: 1,

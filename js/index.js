@@ -4,9 +4,10 @@ $(document).ready(function () {
       loop: true,
       items: 1,
       autoplay: true,
-      autoplayTimeout: 5000,
+      // autoplayTimeout: 5000,
       // lazyLoad: false,
-      animateIn: 'fadeIn',
+      smartSpeed: 1200,
+      // animateIn: 'fadeInLeft',
       animateOut: 'fadeOut',
     });
     owl.trigger('to.owl.carousel', [1]);

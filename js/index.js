@@ -8,7 +8,7 @@ $(document).ready(function () {
       // lazyLoad: true,
       // animateIn: 'fadeIn',
       // animateOut: 'fadeOut',
-      animateIn: 'fadeLeftInLeft',
+      // animateIn: 'fadeLeftInLeft',
     });
     owl.trigger('to.owl.carousel', [1]);
   };

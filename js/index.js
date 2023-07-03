@@ -4,11 +4,11 @@ $(document).ready(function () {
       loop: true,
       items: 1,
       autoplay: true,
-      // autoplayTimeout: 5000,
-      // lazyLoad: false,
-      smartSpeed: 1200,
-      // animateIn: 'fadeInLeft',
-      animateOut: 'fadeOut',
+      autoplayTimeout: 3000,
+      // lazyLoad: true,
+      // animateIn: 'fadeIn',
+      // animateOut: 'fadeOut',
+      animateIn: 'fadeLeftInLeft',
     });
     owl.trigger('to.owl.carousel', [1]);
   };

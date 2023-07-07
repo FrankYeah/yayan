@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     items: 1,
     autoplay: true,
     autoplayTimeout: 5000,
-    // lazyLoad: true,
+    lazyLoad: true,
     // animateIn: 'fadeIn',
     animateOut: 'fadeOut',
   });

@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     autoplayTimeout: 5000,
     lazyLoad: true,
     // animateIn: 'fadeIn',
-    animateOut: 'fadeOut',
+    // animateOut: 'fadeOut',
   });
   owl.trigger('to.owl.carousel', [1]);
 
